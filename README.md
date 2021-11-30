@@ -132,10 +132,6 @@ ref.current.slotImage({
 });
 ```
 
-![20211028112217.jpg](https://intranetproxy.alipay.com/skylark/lark/0/2021/jpeg/1156575/1635391543952-02441e04-f758-4719-ac36-7c92aed317bc.jpeg) 
-
-![20211028112528.jpg](https://intranetproxy.alipay.com/skylark/lark/0/2021/jpeg/1156575/1635391549863-e2920c73-eea2-4ed0-b3a0-a9b42504a074.jpeg) 
-
  方式二：
  
  [lottie-api](https://github.com/bodymovin/lottie-api) 提供了查找方法，可以通过“合成名称”和“图层名称”定位到 DOM 元素，做替换操作。合成名称和图层名称可以在 AE 中查看。react-lottie 做了封装操作，执行如下代码即可：
@@ -150,7 +146,3 @@ ref.current.slotText({
 ```
  
 By the way: 该方法只支持替换文本，不支持替换图像。翻了一下源码，lottie-api 作者才写了个壳...
-
- ![20211028114914.jpg](https://intranetproxy.alipay.com/skylark/lark/0/2021/jpeg/1156575/1635393052333-593d9797-d4d1-40a6-93d5-cf60313235af.jpeg) 
- 
- ![20211028115035.jpg](https://intranetproxy.alipay.com/skylark/lark/0/2021/jpeg/1156575/1635393058648-8f8b6ddc-bd5a-4fc2-a3de-c85eca59462c.jpeg) 
